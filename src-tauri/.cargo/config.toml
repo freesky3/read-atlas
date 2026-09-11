@@ -1,0 +1,6 @@
+# Parallel rustc of fat crates (windows-sys + this crate's
+# staticlib/cdylib/rlib) OOMs LLVM on Windows:
+# `rustc-LLVM ERROR: out of memory` / exit 0xc0000409.
+# Cap jobs so only a couple of rustc processes run at once.
+[build]
+jobs = 2

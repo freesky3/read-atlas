@@ -1,0 +1,29 @@
+{
+  "context": {
+    "thesis": "The paper claims X under Y.",
+    "sections": []
+  },
+  "completedBatches": [
+    1
+  ],
+  "inks": [
+    {
+      "id": "n1",
+      "kind": "note",
+      "speakerId": "alin",
+      "weight": "line",
+      "anchor": {
+        "blockId": "b1",
+        "pageNumber": 1,
+        "blockType": "Text",
+        "bbox": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "body": "ok"
+    }
+  ]
+}

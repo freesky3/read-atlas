@@ -1,0 +1,142 @@
+{
+  "npm:@esbuild/win32-x64@0.25.12": {
+    "files": [
+      "node_modules/esbuild/LICENSE.md"
+    ],
+    "reason": "Platform binary uses esbuild's license."
+  },
+  "npm:@napi-rs/canvas-win32-x64-msvc@1.0.9": {
+    "files": [
+      "node_modules/@napi-rs/canvas/LICENSE"
+    ],
+    "reason": "Platform binary uses the parent canvas package license."
+  },
+  "npm:@rollup/rollup-win32-x64-gnu@4.62.4": {
+    "files": [
+      "node_modules/rollup/LICENSE.md"
+    ],
+    "reason": "Rollup platform binary, same version."
+  },
+  "npm:@rollup/rollup-win32-x64-msvc@4.62.4": {
+    "files": [
+      "node_modules/rollup/LICENSE.md"
+    ],
+    "reason": "Rollup platform binary, same version."
+  },
+  "npm:@tauri-apps/cli-win32-x64-msvc@2.11.4": {
+    "files": [
+      "node_modules/@tauri-apps/cli/LICENSE_MIT",
+      "node_modules/@tauri-apps/cli/LICENSE_APACHE-2.0"
+    ],
+    "reason": "Tauri CLI platform binary, same version."
+  },
+  "npm:rehype-katex@7.0.1": {
+    "files": [
+      "third-party/licenses/remark-math-7-MIT.txt"
+    ],
+    "reason": "Monorepo root license at package gitHead."
+  },
+  "npm:remark-math@6.0.0": {
+    "files": [
+      "third-party/licenses/remark-math-6-MIT.txt"
+    ],
+    "reason": "Monorepo root license at package gitHead."
+  },
+  "npm:saxes@6.0.0": {
+    "files": [
+      "third-party/licenses/saxes-ISC.txt"
+    ],
+    "reason": "License omitted from npm dist; upstream package gitHead."
+  },
+  "npm:stackback@0.0.2": {
+    "files": [
+      "node_modules/stackback/package.json",
+      "third-party/licenses/MIT-template.txt"
+    ],
+    "reason": "Published metadata declares MIT and names Roman Shtylman; upstream v0.0.2 contains no standalone license text. Includes unchanged metadata plus the standard SPDX MIT template, without inventing a copyright year."
+  },
+  "Cargo:alloc-stdlib@0.2.4": {
+    "files": [
+      "third-party/licenses/alloc-stdlib-BSD.txt"
+    ],
+    "reason": "Repository root license at .cargo_vcs_info commit."
+  },
+  "Cargo:defmt-parser@1.0.0": {
+    "files": [
+      "third-party/licenses/defmt-MIT.txt",
+      "third-party/licenses/defmt-APACHE.txt"
+    ],
+    "reason": "Repository root licenses at .cargo_vcs_info commit."
+  },
+  "Cargo:selectors@0.36.1": {
+    "files": [
+      "third-party/licenses/MPL-2.0.txt"
+    ],
+    "reason": "Crate declares MPL-2.0 and source headers identify it; official Mozilla text. Source: https://github.com/servo/stylo/tree/635e1a19d02960588a00e189bd4bd5bdb150ec3d/selectors ; exact crate: https://crates.io/api/v1/crates/selectors/0.36.1/download . Unmodified dependency; MPL obligations remain independent of project MIT."
+  },
+  "Cargo:tauri-plugin@2.6.3": {
+    "files": [
+      "third-party/licenses/tauri-MIT.txt",
+      "third-party/licenses/tauri-APACHE.txt"
+    ],
+    "reason": "Repository root licenses at .cargo_vcs_info commit."
+  },
+  "Cargo:unic-char-property@0.9.0": {
+    "files": [
+      "third-party/licenses/unic-MIT.txt",
+      "third-party/licenses/unic-APACHE.txt",
+      "third-party/licenses/unic-COPYRIGHT.txt"
+    ],
+    "reason": "Monorepo root licenses and copyright at the published commit."
+  },
+  "Cargo:unic-char-range@0.9.0": {
+    "files": [
+      "third-party/licenses/unic-MIT.txt",
+      "third-party/licenses/unic-APACHE.txt",
+      "third-party/licenses/unic-COPYRIGHT.txt"
+    ],
+    "reason": "Monorepo root licenses and copyright at the published commit."
+  },
+  "Cargo:unic-common@0.9.0": {
+    "files": [
+      "third-party/licenses/unic-MIT.txt",
+      "third-party/licenses/unic-APACHE.txt",
+      "third-party/licenses/unic-COPYRIGHT.txt"
+    ],
+    "reason": "Monorepo root licenses and copyright at the published commit."
+  },
+  "Cargo:unic-ucd-ident@0.9.0": {
+    "files": [
+      "third-party/licenses/unic-MIT.txt",
+      "third-party/licenses/unic-APACHE.txt",
+      "third-party/licenses/unic-COPYRIGHT.txt"
+    ],
+    "reason": "Monorepo root licenses and copyright at the published commit."
+  },
+  "Cargo:unic-ucd-version@0.9.0": {
+    "files": [
+      "third-party/licenses/unic-MIT.txt",
+      "third-party/licenses/unic-APACHE.txt",
+      "third-party/licenses/unic-COPYRIGHT.txt"
+    ],
+    "reason": "Monorepo root licenses and copyright at the published commit."
+  },
+  "Cargo:webview2-com@0.38.2": {
+    "files": [
+      "third-party/licenses/webview2-MIT.txt"
+    ],
+    "reason": "Monorepo root license at published commit."
+  },
+  "Cargo:webview2-com-sys@0.38.2": {
+    "files": [
+      "third-party/licenses/webview2-MIT.txt"
+    ],
+    "reason": "Monorepo root license at published commit."
+  },
+  "Cargo:webview2-com-macros@0.8.1": {
+    "files": [
+      "third-party/licenses/webview2-macros-MIT.txt"
+    ],
+    "reason": "Monorepo root license at published commit."
+  }
+}

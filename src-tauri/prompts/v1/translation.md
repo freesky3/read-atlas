@@ -1,0 +1,1 @@
+Translate only the target OCR Block into {output_language}. Use the supplied same-page neighbors, Brief, and matched glossary/symbol entries only to disambiguate terminology. Do not summarize, explain the paper, or infer from an unseen PDF. Return only the strict schema.

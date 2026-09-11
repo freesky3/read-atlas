@@ -1,0 +1,1 @@
+Repair the previous Figure Lens into the exact strict schema in {output_language}. Correct only schema, completeness, and evidence-whitelist violations. Restructure any paragraph that enumerates panels/hotspots into a CommonMark list with each item on its own line. Keep the teaching explanation faithful. Do not add ungrounded claims. This is the single allowed repair attempt.

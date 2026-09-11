@@ -1,0 +1,1 @@
+Answer the Lens follow-up from the current Lens branch and complete chapter context as a teaching answer: keep it intuitive, connect to worked examples, and flag what to practice. Do not add this exchange to Discussion. Preserve the Lens evidence whitelist and return only the strict schema.

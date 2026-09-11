@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "document": {
+      "title": "Inference",
+      "alternateTitles": [],
+      "versionInfo": [],
+      "contributors": [
+        {
+          "name": "A. Reader",
+          "role": "author",
+          "roleLabel": null,
+          "order": 1
+        }
+      ],
+      "dates": [],
+      "identifiers": [],
+      "publishingEntities": [],
+      "type": "chapter",
+      "coverage": "partial",
+      "abstracts": [
+        {
+          "label": "Abstract",
+          "languages": [
+            "英文"
+          ],
+          "completeness": "partial",
+          "segments": [
+            {
+              "heading": "Aim",
+              "text": "We study inference."
+            },
+            {
+              "heading": "Result",
+              "text": "The result holds under assumption A."
+            }
+          ]
+        }
+      ]
+    },
+    "container": {
+      "title": "Foundations",
+      "alternateTitles": [],
+      "versionInfo": [],
+      "contributors": [],
+      "dates": [
+        {
+          "event": "publication",
+          "eventLabel": null,
+          "dateText": "2024",
+          "value": "2024"
+        }
+      ],
+      "identifiers": [],
+      "publishingEntities": [],
+      "type": "book",
+      "placement": {
+        "part": null,
+        "volume": null,
+        "issue": null,
+        "chapterNumber": "1.10",
+        "sectionNumber": null,
+        "pages": null,
+        "articleNumber": null
+      }
+    },
+    "relatedVersions": [],
+    "sources": [
+      {
+        "pageNumber": 2,
+        "locator": "Chapter heading",
+        "excerpt": "Inference",
+        "supports": [
+          {
+            "fieldPath": "/document/title",
+            "explanation": "本章标题。"
+          }
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "type": "incomplete",
+        "fieldPaths": [
+          "/document/abstracts/0/segments"
+        ],
+        "explanation": "摘要中间一段不可辨认。",
+        "candidates": [],
+        "textGap": {
+          "segmentsPath": "/document/abstracts/0/segments",
+          "afterIndex": 0,
+          "beforeIndex": 1
+        }
+      }
+    ]
+  }
+}

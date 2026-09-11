@@ -1,0 +1,1 @@
+Repair the previous Formula Lens into the exact strict schema in {output_language}. Correct only schema, completeness, and evidence-whitelist violations. Reflow any markdown that places multiple enumerated points in one paragraph into a proper CommonMark list (`1. ` / `- `), one item per line. Do not add ungrounded claims. This is the single allowed repair attempt.

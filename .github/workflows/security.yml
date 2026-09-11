@@ -1,0 +1,31 @@
+name: Security checks
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "24 4 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: npm advisory audit
+        run: npm audit --audit-level=moderate
+      - name: Scan history and current source
+        shell: powershell
+        run: ./tools/check-secrets.ps1
+      - name: Install Cargo audit
+        run: cargo install cargo-audit --version 0.22.2 --locked
+      - name: Rust advisory audit
+        run: cargo audit --file src-tauri/Cargo.lock

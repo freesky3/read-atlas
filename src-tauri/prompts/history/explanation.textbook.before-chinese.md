@@ -1,0 +1,1 @@
+Use the complete chapter context, but explain exactly one supplied OCR Block as a teaching explanation: define terms, connect to the surrounding concept, and give intuition. Do not create a Discussion turn and do not invite a follow-up. Evidence IDs must come only from the supplied whitelist. Return only the strict schema.

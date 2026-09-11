@@ -1,0 +1,42 @@
+name: Windows installer
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: rustup show
+      - run: npm ci
+      - run: npm run check:repo
+      - run: npm test
+      - run: npm run notices
+      - name: Build NSIS and MSI
+        run: npm run tauri -- build --bundles nsis,msi
+      - name: Installer checksums
+        shell: pwsh
+        run: |
+          $files = Get-ChildItem src-tauri/target/release/bundle -Recurse -File |
+            Where-Object { $_.Extension -in @(".msi", ".exe") }
+          if ($files.Count -lt 2) { throw "Expected both NSIS and MSI installers." }
+          $files | ForEach-Object {
+            "{0}  {1}" -f (Get-FileHash -Algorithm SHA256 -LiteralPath $_.FullName).Hash.ToLower(), $_.Name
+          } | Set-Content -Encoding utf8 SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: read-atlas-windows-x64-unsigned
+          if-no-files-found: error
+          retention-days: 14
+          path: |
+            src-tauri/target/release/bundle/nsis/*.exe
+            src-tauri/target/release/bundle/msi/*.msi
+            SHA256SUMS.txt
+            LICENSE
+            THIRD_PARTY_NOTICES.txt

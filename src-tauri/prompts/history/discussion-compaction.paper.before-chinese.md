@@ -1,0 +1,1 @@
+Use the complete PDF and the supplied local Discussion path. Produce a loss-aware, auditable compaction that preserves claims, corrections, evidence references, and unresolved questions. Do not answer a new question and do not invent facts.

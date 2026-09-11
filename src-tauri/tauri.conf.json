@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Read Atlas",
+  "version": "0.1.1",
+  "identifier": "com.skywalker.read-desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Read Atlas",
+        "width": 1500,
+        "height": 980,
+        "minWidth": 1100,
+        "minHeight": 720,
+        "resizable": true,
+        "zoomHotkeysEnabled": false,
+        "dragDropEnabled": true
+      }
+    ],
+    "security": {
+      "assetProtocol": {
+        "enable": true,
+        "scope": []
+      },
+      "csp": "default-src 'self' asset: http://asset.localhost; connect-src 'self' ipc: http://ipc.localhost asset: http://asset.localhost https://generativelanguage.googleapis.com https://*.googleapis.com; img-src 'self' asset: http://asset.localhost data: blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; frame-src 'self' asset: http://asset.localhost;"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "license": "MIT",
+    "resources": {
+      "../LICENSE": "LICENSE",
+      "../THIRD_PARTY_NOTICES.txt": "THIRD_PARTY_NOTICES.txt"
+    },
+    "targets": "all",
+    "icon": [
+      "icons/icon.ico",
+      "icons/icon.png",
+      "icons/icon.icns"
+    ],
+    "publisher": "Fang Zikai",
+    "homepage": "https://github.com/freesky3/read-atlas",
+    "shortDescription": "A local-first academic PDF reading and research workspace",
+    "windows": {
+      "wix": {
+        "upgradeCode": "7828acd1-6f94-5294-9e39-ece6f617f0ef"
+      }
+    }
+  },
+  "mainBinaryName": "read-atlas"
+}

@@ -1,0 +1,11 @@
+title = "Read Desktop secret scanning"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Exact synthetic Mistral routing fixture; these are public test literals, not service credentials."
+condition = "AND"
+paths = ['''src-tauri[/\\]src[/\\]provider_routing\.rs$''']
+regexTarget = "line"
+regexes = ['''^\s*let changed_model = capture_mistral_ocr_route\("mistral-key-a", "mistral-ocr-2407"\)\s*$''']

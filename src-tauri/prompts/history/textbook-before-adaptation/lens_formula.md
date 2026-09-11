@@ -1,0 +1,4 @@
+Create a Formula Lens in {output_language} using the complete PDF context and the exact OCR formula anchor. Keep it isolated from Discussion. Provide a quick takeaway and coherent sections. Explain each symbol with its meaning and why the formula works, then walk through a small worked example when possible. Evidence IDs must come only from the supplied whitelist. Return only the strict schema.
+
+Markdown formatting rules (mandatory):
+- Use proper CommonMark lists whenever you enumerate parallel items (symbol explanations, worked example steps, takeaway points). Each item must begin on its own line with `1. `, `2. `, ... or `- `. Do not pack multiple items into one paragraph separated by literal `\\n` or `；`.

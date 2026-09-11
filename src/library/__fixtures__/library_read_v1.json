@@ -1,0 +1,1538 @@
+{
+  "cases": [
+    {
+      "name": "hub_page_default",
+      "request": {
+        "kind": "hub_page",
+        "page": {
+          "cursor": null,
+          "filters": [],
+          "limit": null,
+          "sort": "recent"
+        },
+        "protocolVersion": 1
+      },
+      "result": {
+        "kind": "hub_page",
+        "page": {
+          "dependencies": [
+            {
+              "domain": "artifacts",
+              "value": 0
+            },
+            {
+              "domain": "engagement",
+              "value": 0
+            },
+            {
+              "domain": "jobs",
+              "value": 0
+            },
+            {
+              "domain": "lifecycle",
+              "value": 0
+            },
+            {
+              "domain": "sort",
+              "value": 0
+            },
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "dependencyRevision": "artifacts=0;engagement=0;jobs=0;lifecycle=0;sort=0;structure=0;tags=0",
+          "evaluationAnchor": "<evaluation-anchor>",
+          "evaluationTimezone": "UTC",
+          "hasMore": false,
+          "nextCursor": null,
+          "pageSize": 100,
+          "papers": [
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "alpha.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/alpha.pdf",
+              "importedAt": "2026-08-01T00:00:03Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2021,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/alpha.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/alpha.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:03Z",
+              "tags": [
+                "ml"
+              ],
+              "title": "Alpha Paper"
+            },
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Textbooks",
+              "favorite": false,
+              "fileName": "gamma.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Textbooks/gamma.pdf",
+              "importedAt": "2026-08-01T00:00:02Z",
+              "keywords": [],
+              "kind": "textbook",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": null,
+              "readLater": false,
+              "relativePath": "Textbooks/gamma.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Textbooks/gamma.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:02Z",
+              "tags": [
+                "ml"
+              ],
+              "title": "Gamma Chapter"
+            },
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "beta.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/beta.pdf",
+              "importedAt": "2026-08-01T00:00:01Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2019,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/beta.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/beta.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:01Z",
+              "tags": [],
+              "title": "beta paper"
+            }
+          ],
+          "protocolVersion": 1,
+          "queryDigest": "07e3c44af3a207e0f1f4605a1e83839f5bffcc82532e4be8fcf66cdf05b62ba5",
+          "revision": 0,
+          "selectionDependencies": [
+            {
+              "domain": "structure",
+              "value": 0
+            }
+          ],
+          "selectionDigest": "62d7aa7cd0abd3f68ad1a9068d99b83f4eabcb868bd5767ac1896de3ac3208b5",
+          "sort": "recent",
+          "totalCount": 3
+        }
+      }
+    },
+    {
+      "name": "hub_page_title_first",
+      "request": {
+        "kind": "hub_page",
+        "page": {
+          "cursor": null,
+          "filters": [],
+          "limit": 1,
+          "sort": "title"
+        },
+        "protocolVersion": 1
+      },
+      "result": {
+        "kind": "hub_page",
+        "page": {
+          "dependencies": [
+            {
+              "domain": "artifacts",
+              "value": 0
+            },
+            {
+              "domain": "engagement",
+              "value": 0
+            },
+            {
+              "domain": "jobs",
+              "value": 0
+            },
+            {
+              "domain": "lifecycle",
+              "value": 0
+            },
+            {
+              "domain": "sort",
+              "value": 0
+            },
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "dependencyRevision": "artifacts=0;engagement=0;jobs=0;lifecycle=0;sort=0;structure=0;tags=0",
+          "evaluationAnchor": "<evaluation-anchor>",
+          "evaluationTimezone": "UTC",
+          "hasMore": true,
+          "nextCursor": "eyJkaWdlc3QiOiIwZTU5MmY4MWViZGUxMTQ1NzBiMjRjYzFiMDIyNWYzOTMxZDFjYzI5NzQzNjUzMjYzOWEwZDM4YjJmYTM2M2Q3Iiwia2V5IjoiYWxwaGEgcGFwZXIiLCJpZCI6InBhcGVyLVBhcGVycy9JbmJveC9hbHBoYS5wZGYifQ",
+          "pageSize": 1,
+          "papers": [
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "alpha.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/alpha.pdf",
+              "importedAt": "2026-08-01T00:00:03Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2021,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/alpha.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/alpha.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "alpha paper",
+              "tags": [
+                "ml"
+              ],
+              "title": "Alpha Paper"
+            }
+          ],
+          "protocolVersion": 1,
+          "queryDigest": "0e592f81ebde114570b24cc1b0225f3931d1cc297436532639a0d38b2fa363d7",
+          "revision": 0,
+          "selectionDependencies": [
+            {
+              "domain": "structure",
+              "value": 0
+            }
+          ],
+          "selectionDigest": "62d7aa7cd0abd3f68ad1a9068d99b83f4eabcb868bd5767ac1896de3ac3208b5",
+          "sort": "title",
+          "totalCount": 3
+        }
+      }
+    },
+    {
+      "name": "hub_page_title_second",
+      "request": {
+        "kind": "hub_page",
+        "page": {
+          "cursor": "eyJkaWdlc3QiOiIwZTU5MmY4MWViZGUxMTQ1NzBiMjRjYzFiMDIyNWYzOTMxZDFjYzI5NzQzNjUzMjYzOWEwZDM4YjJmYTM2M2Q3Iiwia2V5IjoiYWxwaGEgcGFwZXIiLCJpZCI6InBhcGVyLVBhcGVycy9JbmJveC9hbHBoYS5wZGYifQ",
+          "filters": [],
+          "limit": 1,
+          "sort": "title"
+        },
+        "protocolVersion": 1
+      },
+      "result": {
+        "kind": "hub_page",
+        "page": {
+          "dependencies": [
+            {
+              "domain": "artifacts",
+              "value": 0
+            },
+            {
+              "domain": "engagement",
+              "value": 0
+            },
+            {
+              "domain": "jobs",
+              "value": 0
+            },
+            {
+              "domain": "lifecycle",
+              "value": 0
+            },
+            {
+              "domain": "sort",
+              "value": 0
+            },
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "dependencyRevision": "artifacts=0;engagement=0;jobs=0;lifecycle=0;sort=0;structure=0;tags=0",
+          "evaluationAnchor": "<evaluation-anchor>",
+          "evaluationTimezone": "UTC",
+          "hasMore": true,
+          "nextCursor": "eyJkaWdlc3QiOiIwZTU5MmY4MWViZGUxMTQ1NzBiMjRjYzFiMDIyNWYzOTMxZDFjYzI5NzQzNjUzMjYzOWEwZDM4YjJmYTM2M2Q3Iiwia2V5IjoiYmV0YSBwYXBlciIsImlkIjoicGFwZXItUGFwZXJzL0luYm94L2JldGEucGRmIn0",
+          "pageSize": 1,
+          "papers": [
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "beta.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/beta.pdf",
+              "importedAt": "2026-08-01T00:00:01Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2019,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/beta.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/beta.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "beta paper",
+              "tags": [],
+              "title": "beta paper"
+            }
+          ],
+          "protocolVersion": 1,
+          "queryDigest": "0e592f81ebde114570b24cc1b0225f3931d1cc297436532639a0d38b2fa363d7",
+          "revision": 0,
+          "selectionDependencies": [
+            {
+              "domain": "structure",
+              "value": 0
+            }
+          ],
+          "selectionDigest": "62d7aa7cd0abd3f68ad1a9068d99b83f4eabcb868bd5767ac1896de3ac3208b5",
+          "sort": "title",
+          "totalCount": 3
+        }
+      }
+    },
+    {
+      "name": "hub_page_title_third",
+      "request": {
+        "kind": "hub_page",
+        "page": {
+          "cursor": "eyJkaWdlc3QiOiIwZTU5MmY4MWViZGUxMTQ1NzBiMjRjYzFiMDIyNWYzOTMxZDFjYzI5NzQzNjUzMjYzOWEwZDM4YjJmYTM2M2Q3Iiwia2V5IjoiYmV0YSBwYXBlciIsImlkIjoicGFwZXItUGFwZXJzL0luYm94L2JldGEucGRmIn0",
+          "filters": [],
+          "limit": 1,
+          "sort": "title"
+        },
+        "protocolVersion": 1
+      },
+      "result": {
+        "kind": "hub_page",
+        "page": {
+          "dependencies": [
+            {
+              "domain": "artifacts",
+              "value": 0
+            },
+            {
+              "domain": "engagement",
+              "value": 0
+            },
+            {
+              "domain": "jobs",
+              "value": 0
+            },
+            {
+              "domain": "lifecycle",
+              "value": 0
+            },
+            {
+              "domain": "sort",
+              "value": 0
+            },
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "dependencyRevision": "artifacts=0;engagement=0;jobs=0;lifecycle=0;sort=0;structure=0;tags=0",
+          "evaluationAnchor": "<evaluation-anchor>",
+          "evaluationTimezone": "UTC",
+          "hasMore": false,
+          "nextCursor": null,
+          "pageSize": 1,
+          "papers": [
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Textbooks",
+              "favorite": false,
+              "fileName": "gamma.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Textbooks/gamma.pdf",
+              "importedAt": "2026-08-01T00:00:02Z",
+              "keywords": [],
+              "kind": "textbook",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": null,
+              "readLater": false,
+              "relativePath": "Textbooks/gamma.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Textbooks/gamma.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "gamma chapter",
+              "tags": [
+                "ml"
+              ],
+              "title": "Gamma Chapter"
+            }
+          ],
+          "protocolVersion": 1,
+          "queryDigest": "0e592f81ebde114570b24cc1b0225f3931d1cc297436532639a0d38b2fa363d7",
+          "revision": 0,
+          "selectionDependencies": [
+            {
+              "domain": "structure",
+              "value": 0
+            }
+          ],
+          "selectionDigest": "62d7aa7cd0abd3f68ad1a9068d99b83f4eabcb868bd5767ac1896de3ac3208b5",
+          "sort": "title",
+          "totalCount": 3
+        }
+      }
+    },
+    {
+      "name": "hub_page_filtered",
+      "request": {
+        "kind": "hub_page",
+        "page": {
+          "cursor": null,
+          "filters": [
+            {
+              "kind": "collection",
+              "path": "Papers",
+              "recursive": true
+            },
+            {
+              "kind": "tag",
+              "tag": "ML"
+            }
+          ],
+          "limit": 2,
+          "sort": "year"
+        },
+        "protocolVersion": 1
+      },
+      "result": {
+        "kind": "hub_page",
+        "page": {
+          "dependencies": [
+            {
+              "domain": "artifacts",
+              "value": 0
+            },
+            {
+              "domain": "engagement",
+              "value": 0
+            },
+            {
+              "domain": "jobs",
+              "value": 0
+            },
+            {
+              "domain": "lifecycle",
+              "value": 0
+            },
+            {
+              "domain": "sort",
+              "value": 0
+            },
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "dependencyRevision": "artifacts=0;engagement=0;jobs=0;lifecycle=0;sort=0;structure=0;tags=0",
+          "evaluationAnchor": "<evaluation-anchor>",
+          "evaluationTimezone": "UTC",
+          "hasMore": false,
+          "nextCursor": null,
+          "pageSize": 2,
+          "papers": [
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "alpha.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/alpha.pdf",
+              "importedAt": "2026-08-01T00:00:03Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2021,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/alpha.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/alpha.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2147485669",
+              "tags": [
+                "ml"
+              ],
+              "title": "Alpha Paper"
+            }
+          ],
+          "protocolVersion": 1,
+          "queryDigest": "c039a85e3dd523fa78ebb0571e4a713d63c31ed18d344b486b3f936547813e74",
+          "revision": 0,
+          "selectionDependencies": [
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "selectionDigest": "45ade7118f9b8b40f2b89526c78849088924d0c949c7f444c3f4b7407411758e",
+          "sort": "year",
+          "totalCount": 1
+        }
+      }
+    },
+    {
+      "name": "hub_page_tag_only",
+      "request": {
+        "kind": "hub_page",
+        "page": {
+          "cursor": null,
+          "filters": [
+            {
+              "kind": "tag",
+              "tag": "ml"
+            }
+          ],
+          "limit": null,
+          "sort": "recent"
+        },
+        "protocolVersion": 1
+      },
+      "result": {
+        "kind": "hub_page",
+        "page": {
+          "dependencies": [
+            {
+              "domain": "artifacts",
+              "value": 0
+            },
+            {
+              "domain": "engagement",
+              "value": 0
+            },
+            {
+              "domain": "jobs",
+              "value": 0
+            },
+            {
+              "domain": "lifecycle",
+              "value": 0
+            },
+            {
+              "domain": "sort",
+              "value": 0
+            },
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "dependencyRevision": "artifacts=0;engagement=0;jobs=0;lifecycle=0;sort=0;structure=0;tags=0",
+          "evaluationAnchor": "<evaluation-anchor>",
+          "evaluationTimezone": "UTC",
+          "hasMore": false,
+          "nextCursor": null,
+          "pageSize": 100,
+          "papers": [
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "alpha.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/alpha.pdf",
+              "importedAt": "2026-08-01T00:00:03Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2021,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/alpha.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/alpha.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:03Z",
+              "tags": [
+                "ml"
+              ],
+              "title": "Alpha Paper"
+            },
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Textbooks",
+              "favorite": false,
+              "fileName": "gamma.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Textbooks/gamma.pdf",
+              "importedAt": "2026-08-01T00:00:02Z",
+              "keywords": [],
+              "kind": "textbook",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": null,
+              "readLater": false,
+              "relativePath": "Textbooks/gamma.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Textbooks/gamma.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:02Z",
+              "tags": [
+                "ml"
+              ],
+              "title": "Gamma Chapter"
+            }
+          ],
+          "protocolVersion": 1,
+          "queryDigest": "606884de518d6474f98bad5b9687caa70992ac812c20363cbf400355e345d3d0",
+          "revision": 0,
+          "selectionDependencies": [
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "selectionDigest": "a1ac5b49197f257846895fee846010a7fb7853839ef13a28e21e9a4fa29bdae0",
+          "sort": "recent",
+          "totalCount": 2
+        }
+      }
+    },
+    {
+      "name": "hub_page_collection_canonical",
+      "request": {
+        "kind": "hub_page",
+        "page": {
+          "cursor": null,
+          "filters": [
+            {
+              "kind": "collection",
+              "path": "Papers/Inbox",
+              "recursive": false
+            }
+          ],
+          "limit": null,
+          "sort": "recent"
+        },
+        "protocolVersion": 1
+      },
+      "result": {
+        "kind": "hub_page",
+        "page": {
+          "dependencies": [
+            {
+              "domain": "artifacts",
+              "value": 0
+            },
+            {
+              "domain": "engagement",
+              "value": 0
+            },
+            {
+              "domain": "jobs",
+              "value": 0
+            },
+            {
+              "domain": "lifecycle",
+              "value": 0
+            },
+            {
+              "domain": "sort",
+              "value": 0
+            },
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "dependencyRevision": "artifacts=0;engagement=0;jobs=0;lifecycle=0;sort=0;structure=0;tags=0",
+          "evaluationAnchor": "<evaluation-anchor>",
+          "evaluationTimezone": "UTC",
+          "hasMore": false,
+          "nextCursor": null,
+          "pageSize": 100,
+          "papers": [
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "alpha.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/alpha.pdf",
+              "importedAt": "2026-08-01T00:00:03Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2021,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/alpha.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/alpha.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:03Z",
+              "tags": [
+                "ml"
+              ],
+              "title": "Alpha Paper"
+            },
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "beta.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/beta.pdf",
+              "importedAt": "2026-08-01T00:00:01Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2019,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/beta.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/beta.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:01Z",
+              "tags": [],
+              "title": "beta paper"
+            }
+          ],
+          "protocolVersion": 1,
+          "queryDigest": "1271a6717c906cb62fe57c176e0f33ff39d64abb4053dcadd76581a3b37cb552",
+          "revision": 0,
+          "selectionDependencies": [
+            {
+              "domain": "structure",
+              "value": 0
+            }
+          ],
+          "selectionDigest": "59bd696ec825e2476e4da710ba4d8ec1b7223d94a4324506a47bbd6283147d2e",
+          "sort": "recent",
+          "totalCount": 2
+        }
+      }
+    },
+    {
+      "name": "hub_page_collection_lowercase_root",
+      "request": {
+        "kind": "hub_page",
+        "page": {
+          "cursor": null,
+          "filters": [
+            {
+              "kind": "collection",
+              "path": "papers/Inbox",
+              "recursive": false
+            }
+          ],
+          "limit": null,
+          "sort": "recent"
+        },
+        "protocolVersion": 1
+      },
+      "result": {
+        "kind": "hub_page",
+        "page": {
+          "dependencies": [
+            {
+              "domain": "artifacts",
+              "value": 0
+            },
+            {
+              "domain": "engagement",
+              "value": 0
+            },
+            {
+              "domain": "jobs",
+              "value": 0
+            },
+            {
+              "domain": "lifecycle",
+              "value": 0
+            },
+            {
+              "domain": "sort",
+              "value": 0
+            },
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "dependencyRevision": "artifacts=0;engagement=0;jobs=0;lifecycle=0;sort=0;structure=0;tags=0",
+          "evaluationAnchor": "<evaluation-anchor>",
+          "evaluationTimezone": "UTC",
+          "hasMore": false,
+          "nextCursor": null,
+          "pageSize": 100,
+          "papers": [
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "alpha.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/alpha.pdf",
+              "importedAt": "2026-08-01T00:00:03Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2021,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/alpha.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/alpha.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:03Z",
+              "tags": [
+                "ml"
+              ],
+              "title": "Alpha Paper"
+            },
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "beta.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/beta.pdf",
+              "importedAt": "2026-08-01T00:00:01Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2019,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/beta.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/beta.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:01Z",
+              "tags": [],
+              "title": "beta paper"
+            }
+          ],
+          "protocolVersion": 1,
+          "queryDigest": "ef81dc0bca3a309a80604e38155a7bd280baace8846d01a28e1fa13d2f73dd8f",
+          "revision": 0,
+          "selectionDependencies": [
+            {
+              "domain": "structure",
+              "value": 0
+            }
+          ],
+          "selectionDigest": "4245d64905f98557f65a66eb0e0ba20659c2f2e8641cc229cbe1db6f3f141e13",
+          "sort": "recent",
+          "totalCount": 2
+        }
+      }
+    },
+    {
+      "name": "hub_page_collection_bare_name",
+      "request": {
+        "kind": "hub_page",
+        "page": {
+          "cursor": null,
+          "filters": [
+            {
+              "kind": "collection",
+              "path": "Inbox",
+              "recursive": false
+            }
+          ],
+          "limit": null,
+          "sort": "recent"
+        },
+        "protocolVersion": 1
+      },
+      "result": {
+        "kind": "hub_page",
+        "page": {
+          "dependencies": [
+            {
+              "domain": "artifacts",
+              "value": 0
+            },
+            {
+              "domain": "engagement",
+              "value": 0
+            },
+            {
+              "domain": "jobs",
+              "value": 0
+            },
+            {
+              "domain": "lifecycle",
+              "value": 0
+            },
+            {
+              "domain": "sort",
+              "value": 0
+            },
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "dependencyRevision": "artifacts=0;engagement=0;jobs=0;lifecycle=0;sort=0;structure=0;tags=0",
+          "evaluationAnchor": "<evaluation-anchor>",
+          "evaluationTimezone": "UTC",
+          "hasMore": false,
+          "nextCursor": null,
+          "pageSize": 100,
+          "papers": [
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "alpha.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/alpha.pdf",
+              "importedAt": "2026-08-01T00:00:03Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2021,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/alpha.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/alpha.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:03Z",
+              "tags": [
+                "ml"
+              ],
+              "title": "Alpha Paper"
+            },
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "beta.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/beta.pdf",
+              "importedAt": "2026-08-01T00:00:01Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2019,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/beta.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/beta.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:01Z",
+              "tags": [],
+              "title": "beta paper"
+            }
+          ],
+          "protocolVersion": 1,
+          "queryDigest": "5d86435ecf1af4f239e3edd6ce17259dbbc740eb9fac897855a65004c8dee115",
+          "revision": 0,
+          "selectionDependencies": [
+            {
+              "domain": "structure",
+              "value": 0
+            }
+          ],
+          "selectionDigest": "0d32737a79a772e271984cdceb1de2e3382b058c51f82d71ee6f18fec8b2c9bc",
+          "sort": "recent",
+          "totalCount": 2
+        }
+      }
+    },
+    {
+      "name": "hub_page_collection_trailing_slash",
+      "request": {
+        "kind": "hub_page",
+        "page": {
+          "cursor": null,
+          "filters": [
+            {
+              "kind": "collection",
+              "path": "Papers/Inbox/",
+              "recursive": false
+            }
+          ],
+          "limit": null,
+          "sort": "recent"
+        },
+        "protocolVersion": 1
+      },
+      "result": {
+        "kind": "hub_page",
+        "page": {
+          "dependencies": [
+            {
+              "domain": "artifacts",
+              "value": 0
+            },
+            {
+              "domain": "engagement",
+              "value": 0
+            },
+            {
+              "domain": "jobs",
+              "value": 0
+            },
+            {
+              "domain": "lifecycle",
+              "value": 0
+            },
+            {
+              "domain": "sort",
+              "value": 0
+            },
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "dependencyRevision": "artifacts=0;engagement=0;jobs=0;lifecycle=0;sort=0;structure=0;tags=0",
+          "evaluationAnchor": "<evaluation-anchor>",
+          "evaluationTimezone": "UTC",
+          "hasMore": false,
+          "nextCursor": null,
+          "pageSize": 100,
+          "papers": [
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "alpha.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/alpha.pdf",
+              "importedAt": "2026-08-01T00:00:03Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2021,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/alpha.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/alpha.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:03Z",
+              "tags": [
+                "ml"
+              ],
+              "title": "Alpha Paper"
+            },
+            {
+              "authors": [],
+              "briefStatus": "missing",
+              "briefTakeaway": null,
+              "byteSize": 1024,
+              "chapterNumber": null,
+              "collectionPath": "Papers/Inbox",
+              "favorite": false,
+              "fileName": "beta.pdf",
+              "furthestPage": null,
+              "hasOcr": false,
+              "id": "paper-Papers/Inbox/beta.pdf",
+              "importedAt": "2026-08-01T00:00:01Z",
+              "keywords": [],
+              "kind": "paper",
+              "lastOpenedAt": null,
+              "lifecycleStatus": "unread",
+              "lifecycleVersion": 0,
+              "ocrFailed": false,
+              "pageCount": 12,
+              "priority": 0,
+              "publicationYear": 2019,
+              "readLater": false,
+              "relativePath": "Papers/Inbox/beta.pdf",
+              "reviewAt": null,
+              "revisionId": "rev-Papers/Inbox/beta.pdf",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000001",
+              "sortKey": "2026-08-01T00:00:01Z",
+              "tags": [],
+              "title": "beta paper"
+            }
+          ],
+          "protocolVersion": 1,
+          "queryDigest": "ab620dae70be069e79db00646e3e87d61bd621c22782207ce371dea63caee3cc",
+          "revision": 0,
+          "selectionDependencies": [
+            {
+              "domain": "structure",
+              "value": 0
+            }
+          ],
+          "selectionDigest": "6eff9d892bd79c04696ed2dc0f79549454891a730c85755a9f002c4288bc9bf6",
+          "sort": "recent",
+          "totalCount": 2
+        }
+      }
+    },
+    {
+      "name": "hub_page_collection_leaf_case_matters",
+      "request": {
+        "kind": "hub_page",
+        "page": {
+          "cursor": null,
+          "filters": [
+            {
+              "kind": "collection",
+              "path": "Papers/inbox",
+              "recursive": false
+            }
+          ],
+          "limit": null,
+          "sort": "recent"
+        },
+        "protocolVersion": 1
+      },
+      "result": {
+        "kind": "hub_page",
+        "page": {
+          "dependencies": [
+            {
+              "domain": "artifacts",
+              "value": 0
+            },
+            {
+              "domain": "engagement",
+              "value": 0
+            },
+            {
+              "domain": "jobs",
+              "value": 0
+            },
+            {
+              "domain": "lifecycle",
+              "value": 0
+            },
+            {
+              "domain": "sort",
+              "value": 0
+            },
+            {
+              "domain": "structure",
+              "value": 0
+            },
+            {
+              "domain": "tags",
+              "value": 0
+            }
+          ],
+          "dependencyRevision": "artifacts=0;engagement=0;jobs=0;lifecycle=0;sort=0;structure=0;tags=0",
+          "evaluationAnchor": "<evaluation-anchor>",
+          "evaluationTimezone": "UTC",
+          "hasMore": false,
+          "nextCursor": null,
+          "pageSize": 100,
+          "papers": [],
+          "protocolVersion": 1,
+          "queryDigest": "84e90ebc5c4f543bc385da5acac98088f64eefdf092fafa97ba2053c3217b87e",
+          "revision": 0,
+          "selectionDependencies": [
+            {
+              "domain": "structure",
+              "value": 0
+            }
+          ],
+          "selectionDigest": "fecef747b423322ce856b7c69fd28b82b801aed38772c5a300684a243da11837",
+          "sort": "recent",
+          "totalCount": 0
+        }
+      }
+    },
+    {
+      "name": "watch_handshake_stale",
+      "request": {
+        "after": null,
+        "kind": "watch_handshake",
+        "protocolVersion": 1
+      },
+      "result": {
+        "currentRevision": 0,
+        "invalidated": true,
+        "kind": "watch_handshake"
+      }
+    },
+    {
+      "name": "watch_handshake_current",
+      "request": {
+        "after": 0,
+        "kind": "watch_handshake",
+        "protocolVersion": 1
+      },
+      "result": {
+        "currentRevision": 0,
+        "invalidated": false,
+        "kind": "watch_handshake"
+      }
+    },
+    {
+      "name": "smart_collections",
+      "request": {
+        "kind": "smart_collections",
+        "protocolVersion": 1
+      },
+      "result": {
+        "collections": [
+          {
+            "builtin": true,
+            "createdAt": null,
+            "id": "unread_this_week",
+            "name": "本周导入但未读",
+            "query": {
+              "filters": [
+                {
+                  "kind": "imported",
+                  "relative": "this_week"
+                },
+                {
+                  "kind": "status",
+                  "value": "unread"
+                }
+              ],
+              "queryVersion": 1,
+              "sort": "recent"
+            },
+            "updatedAt": null
+          },
+          {
+            "builtin": true,
+            "createdAt": null,
+            "id": "reading",
+            "name": "阅读中",
+            "query": {
+              "filters": [
+                {
+                  "kind": "status",
+                  "value": "reading"
+                }
+              ],
+              "queryVersion": 1,
+              "sort": "recent"
+            },
+            "updatedAt": null
+          },
+          {
+            "builtin": true,
+            "createdAt": null,
+            "id": "read_later",
+            "name": "稍后阅读",
+            "query": {
+              "filters": [
+                {
+                  "kind": "read_later",
+                  "value": true
+                }
+              ],
+              "queryVersion": 1,
+              "sort": "recent"
+            },
+            "updatedAt": null
+          },
+          {
+            "builtin": true,
+            "createdAt": null,
+            "id": "review_due",
+            "name": "需要复习",
+            "query": {
+              "filters": [
+                {
+                  "kind": "review_due"
+                }
+              ],
+              "queryVersion": 1,
+              "sort": "recent"
+            },
+            "updatedAt": null
+          },
+          {
+            "builtin": true,
+            "createdAt": null,
+            "id": "ocr_failed",
+            "name": "OCR 失败",
+            "query": {
+              "filters": [
+                {
+                  "kind": "ocr_failed"
+                }
+              ],
+              "queryVersion": 1,
+              "sort": "recent"
+            },
+            "updatedAt": null
+          },
+          {
+            "builtin": true,
+            "createdAt": null,
+            "id": "recently_opened",
+            "name": "最近打开",
+            "query": {
+              "filters": [
+                {
+                  "kind": "opened"
+                }
+              ],
+              "queryVersion": 1,
+              "sort": "last_opened"
+            },
+            "updatedAt": null
+          }
+        ],
+        "kind": "smart_collections"
+      }
+    },
+    {
+      "name": "reading_context_alpha",
+      "request": {
+        "kind": "reading_context",
+        "paperId": "paper-Papers/Inbox/alpha.pdf",
+        "protocolVersion": 1,
+        "revisionId": "rev-Papers/Inbox/alpha.pdf"
+      },
+      "result": {
+        "context": {
+          "engagement": null,
+          "lifecycle": {
+            "completedAt": null,
+            "favorite": false,
+            "paperId": "paper-Papers/Inbox/alpha.pdf",
+            "priority": 0,
+            "readLater": false,
+            "reviewAt": null,
+            "status": "unread",
+            "statusChangedAt": "2026-08-01T00:00:00Z",
+            "updatedAt": "2026-08-01T00:00:00Z",
+            "version": 0
+          }
+        },
+        "kind": "reading_context"
+      }
+    },
+    {
+      "name": "collection_layer_inbox",
+      "request": {
+        "collectionPath": "Papers/Inbox",
+        "kind": "collection_layer",
+        "protocolVersion": 1
+      },
+      "result": {
+        "collectionId": "coll-Papers/Inbox",
+        "kind": "collection_layer",
+        "paperIds": [
+          "paper-Papers/Inbox/beta.pdf",
+          "paper-Papers/Inbox/alpha.pdf"
+        ]
+      }
+    }
+  ],
+  "protocolVersion": 1
+}

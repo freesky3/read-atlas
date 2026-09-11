@@ -1,0 +1,42 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+.tmp.driveupload/
+.tmp.drivedownload/
+tmp/
+*.log
+*.sqlite3
+*.sqlite3-*
+.env
+.env.*
+!.env.example
+
+# Local reading data and private test material
+.read-desktop/
+/Papers/
+/Textbooks/
+/Characters/
+/export/
+*.read-desktop.reader.md
+read-desktop.reader.md
+*.db
+*.db-wal
+*.db-shm
+/tests/fixtures/*.pdf
+/tests/fixtures/generated/
+
+# Personal asset work, tooling state and reports
+/pet-upgrades/
+/.superpowers/
+/coverage/
+/playwright-report/
+/test-results/
+*.tsbuildinfo
+
+# Credentials and signing material
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision

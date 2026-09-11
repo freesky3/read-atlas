@@ -1,0 +1,22 @@
+{
+  "gemini": {
+    "name": "Google AI Studio",
+    "url": "https://aistudio.google.com/api-keys"
+  },
+  "openai": {
+    "name": "OpenAI",
+    "url": "https://platform.openai.com/api-keys"
+  },
+  "grok": {
+    "name": "xAI",
+    "url": "https://console.x.ai/team/default/api-keys"
+  },
+  "mistral": {
+    "name": "Mistral Console",
+    "url": "https://console.mistral.ai"
+  },
+  "deepseek": {
+    "name": "DeepSeek",
+    "url": "https://platform.deepseek.com/api_keys"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "read-atlas",
+  "version": "0.1.1",
+  "private": true,
+  "description": "A local-first academic PDF reading and research workspace",
+  "license": "MIT",
+  "author": "Fang Zikai",
+  "engines": {
+    "node": ">=24.17.0 <25"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "test": "vitest run --maxWorkers=1 --fileParallelism=false",
+    "test:watch": "vitest",
+    "build": "tsc -b && vite build",
+    "check:repo": "node tools/check-repository.mjs",
+    "notices": "node tools/generate-notices.mjs",
+    "fixtures": "node tools/generate-pdf-fixtures.mjs",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@dagrejs/dagre": "^3.1.1",
+    "@tauri-apps/api": "^2.5.0",
+    "@tauri-apps/plugin-dialog": "^2.2.0",
+    "@xyflow/react": "^12.11.3",
+    "clsx": "^2.1.1",
+    "katex": "^0.16.22",
+    "lucide-react": "^0.468.0",
+    "pdfjs-dist": "^6.2.108",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.5.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^26.0.0",
+    "prettier": "^3.9.6",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^4.1.11"
+  }
+}

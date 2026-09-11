@@ -1,0 +1,19 @@
+name: Feature request / 功能建议
+description: Describe a reading problem and the outcome you need.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / 使用场景
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome / 希望的结果
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives / 已尝试的方法

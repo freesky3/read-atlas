@@ -1,0 +1,43 @@
+[
+  {
+    "id": "n1",
+    "kind": "note",
+    "speakerId": "alin",
+    "weight": "line",
+    "anchor": {
+      "blockId": "b1",
+      "pageNumber": 1,
+      "blockType": "Text",
+      "bbox": [
+        10,
+        20,
+        100,
+        40
+      ]
+    },
+    "body": "The sample size is fixed before the comparison."
+  },
+  {
+    "id": "t1",
+    "kind": "trace",
+    "speakerId": "laozhou",
+    "anchor": {
+      "blockId": "b1",
+      "pageNumber": 1,
+      "blockType": "Text",
+      "bbox": [
+        10,
+        20,
+        100,
+        40
+      ]
+    }
+  },
+  {
+    "id": "r1",
+    "kind": "reply",
+    "speakerId": "xiaxia",
+    "parentId": "n1",
+    "body": "Imagine locking the ruler before measuring two sticks."
+  }
+]

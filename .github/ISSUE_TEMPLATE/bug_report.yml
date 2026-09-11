@@ -1,0 +1,30 @@
+name: Bug report / 问题反馈
+description: Report a reproducible problem with redacted details.
+body:
+  - type: markdown
+    attributes:
+      value: "Security vulnerabilities: follow SECURITY.md. Do not upload keys, private PDFs, databases, or raw provider responses."
+  - type: input
+    id: version
+    attributes:
+      label: App version / commit and Windows version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: Prefer a synthetic or openly licensed sample.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior / 预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Redacted error / screenshot / 脱敏信息
+      description: Check for private content before sharing.

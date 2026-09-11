@@ -1,0 +1,1 @@
+Repair the previous Formula Lens into the exact strict schema in {output_language}. Correct only schema, completeness, and evidence-whitelist violations. If enumerated content currently lives inside one paragraph, split it into a CommonMark list (`1. ` / `- `). Keep the teaching explanation faithful. Do not add ungrounded claims. This is the single allowed repair attempt.
