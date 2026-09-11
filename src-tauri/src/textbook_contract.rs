@@ -426,13 +426,16 @@ mod tests {
         ))
         .unwrap();
         for (name, hash) in manifest.as_object().unwrap() {
-            assert_eq!(
-                format!(
-                    "{:x}",
-                    Sha256::digest(fs::read(root.join("prompts").join(name)).unwrap())
-                ),
-                hash.as_str().unwrap(),
-                "{name}"
+            // The historical manifest contains both LF and CRLF files. Git
+            // canonicalizes tracked text to LF; only line endings may differ.
+            let source = fs::read_to_string(root.join("prompts").join(name)).unwrap();
+            let lf = source.replace("\r\n", "\n");
+            let crlf = lf.replace('\n', "\r\n");
+            let expected = hash.as_str().unwrap();
+            assert!(
+                format!("{:x}", Sha256::digest(lf.as_bytes())) == expected
+                    || format!("{:x}", Sha256::digest(crlf.as_bytes())) == expected,
+                "{name}: content changed beyond LF/CRLF line endings"
             );
         }
     }
