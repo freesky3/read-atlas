@@ -23,8 +23,8 @@
   "dependencies": {
     "@dagrejs/dagre": "^3.1.1",
     "@tauri-apps/api": "^2.5.0",
-    "@tauri-apps/plugin-dialog": "^2.2.0",
-    "@xyflow/react": "^12.11.3",
+    "@tauri-apps/plugin-dialog": "^2.7.3",
+    "@xyflow/react": "^12.11.6",
     "clsx": "^2.1.1",
     "katex": "^0.16.22",
     "lucide-react": "^0.468.0",
@@ -40,7 +40,7 @@
     "@tauri-apps/cli": "^2.5.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
-    "@testing-library/user-event": "^14.5.2",
+    "@testing-library/user-event": "^14.6.7",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
     "@vitejs/plugin-react": "^4.3.4",
@@ -48,6 +48,6 @@
     "prettier": "^3.9.6",
     "typescript": "^5.7.2",
     "vite": "^6.0.7",
-    "vitest": "^4.1.11"
+    "vitest": "^5.0.0"
   }
 }
