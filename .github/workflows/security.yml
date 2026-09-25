@@ -26,7 +26,7 @@ jobs:
       - name: Scan history and current source
         shell: powershell
         run: ./tools/check-secrets.ps1
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         id: cargo-audit-cache
         with:
           path: ~/.cargo/bin/cargo-audit.exe
